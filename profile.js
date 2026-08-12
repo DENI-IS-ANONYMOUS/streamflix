@@ -42,33 +42,10 @@ function createAccountWithAvatar(username,email,password,file){
   localStorage.setItem('streamflix_username',username);localStorage.setItem('streamflix_email',email);localStorage.setItem('streamflix_auth','1');localStorage.setItem('streamflix_subscribed','0');localStorage.removeItem('streamflix_avatar');
   if(file){const reader=new FileReader();reader.onload=()=>{localStorage.setItem('streamflix_avatar',reader.result);location.href='index.html';};reader.readAsDataURL(file);}else{location.href='index.html';}
 }
-function startUsernameEdit(){
-  const display=document.getElementById('usernameDisplay');
-  const editor=document.getElementById('usernameEditor');
-  const button=document.getElementById('editUsernameBtn');
-  const input=document.getElementById('usernameInput');
-  if(!display||!editor||!input)return;
-  input.value=getProfile().username;
-  display.classList.add('hidden');
-  button?.classList.add('hidden');
-  editor.classList.remove('hidden');
-  input.focus();
-  input.select();
-}
-function cancelUsernameEdit(){
-  const display=document.getElementById('usernameDisplay');
-  const editor=document.getElementById('usernameEditor');
-  const button=document.getElementById('editUsernameBtn');
-  if(display)display.classList.remove('hidden');
-  button?.classList.remove('hidden');
-  editor?.classList.add('hidden');
-  if(editor)document.getElementById('usernameInput').value=getProfile().username;
-}
 function saveUsername(){
   const input=document.getElementById('usernameInput'),value=input?.value.trim();
   if(!value||value.length<2){toast?.('Username must be at least 2 characters');return;}
-  localStorage.setItem('streamflix_username',value);
-  renderProfilePage();renderAccountMenu();renderHeaderAvatar();cancelUsernameEdit();toast?.('Username updated');
+  localStorage.setItem('streamflix_username',value);renderProfilePage();renderAccountMenu();renderHeaderAvatar();toast?.('Username updated');
 }
 function toggleSubscription(){
   const next=getProfile().subscribed?'0':'1';localStorage.setItem('streamflix_subscribed',next);renderProfilePage();renderAccountMenu();renderHeaderAvatar();toast?.(next==='1'?'Subscription activated — verified badge added':'Subscription cancelled');
@@ -78,7 +55,6 @@ function renderProfilePage(){
   if(avatar)avatar.innerHTML=avatarMarkup('large');
   const name=document.getElementById('profileDisplayName');if(name)name.innerHTML=`${escapeHtml(p.username)} ${verifiedMarkup()}`;
   const email=document.getElementById('profileEmail');if(email)email.textContent=p.email;
-  const display=document.getElementById('usernameDisplay');if(display)display.textContent=p.username;
   const input=document.getElementById('usernameInput');if(input)input.value=p.username;
   const subStatus=document.getElementById('subscriptionStatus');if(subStatus)subStatus.innerHTML=p.subscribed?'<span class="subscription-active">Active · Verified ✓</span>':'<span class="subscription-free">Free plan</span>';
   const subBtn=document.getElementById('subscriptionBtn');if(subBtn)subBtn.textContent=p.subscribed?'Cancel demo subscription':'Subscribe';

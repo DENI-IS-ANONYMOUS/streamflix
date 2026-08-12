@@ -42,26 +42,3 @@
 #signupAvatar::file-selector-button{margin-right:10px;padding:7px 10px;border:0;border-radius:5px;background:#333;color:#fff;cursor:pointer}
 
 .section-count{color:#777;font-size:12px;margin-left:auto}.chips{display:flex;gap:7px;flex-wrap:wrap;margin:10px 0 18px}.chip{border:1px solid #444;padding:5px 9px;border-radius:99px;color:#ccc;font-size:12px}.empty{padding:50px 4%;color:#888}.panel{background:#111;border:1px solid #2b2b2b;border-radius:10px}.menu-trigger{background:none;border:0;color:#ddd;font-size:22px}.header-avatar-img{width:100%;height:100%;object-fit:cover;border-radius:5px;display:block}.profile-avatar-img{object-fit:cover;border-radius:inherit;width:100%;height:100%;display:block}.person{margin-bottom:8px}.detail-copy .chip{display:inline-block}.detail-body aside{min-width:0}@media(max-width:1000px){.row{grid-template-columns:repeat(4,1fr)}}@media(max-width:650px){.row{grid-template-columns:repeat(2,1fr)}.search{display:none}.detail-body{grid-template-columns:1fr}.detail-hero{min-height:500px}.detail-copy{left:5%;right:5%}}
-
-/* Login / logout cinematic poster wall */
-.login{position:relative;overflow:hidden;isolation:isolate;background:#050505}
-.login-backdrop{position:absolute;inset:-8vh -3vw;display:flex;justify-content:center;gap:10px;z-index:0;overflow:hidden;transform:skewX(-1deg) scale(1.03);filter:saturate(.78) brightness(.58)}
-.login-poster-column{flex:1 1 0;min-width:48px;max-width:105px;display:flex;flex-direction:column;gap:10px;will-change:transform;animation-duration:var(--duration);animation-delay:var(--delay);animation-timing-function:linear;animation-iteration-count:infinite}
-.login-poster-column.slide-up{animation-name:streamflixPosterUp}
-.login-poster-column.slide-down{animation-name:streamflixPosterDown}
-.login-poster{width:100%;aspect-ratio:2/3;border-radius:7px;background-size:cover;background-position:center;flex:none;box-shadow:0 6px 24px rgba(0,0,0,.55);border:1px solid rgba(255,255,255,.06)}
-.login-vignette{position:absolute;inset:0;z-index:1;pointer-events:none;background:
-  radial-gradient(circle at center,rgba(0,0,0,.15) 0%,rgba(0,0,0,.52) 52%,rgba(0,0,0,.92) 100%),
-  linear-gradient(90deg,rgba(0,0,0,.75),rgba(0,0,0,.18) 25%,rgba(0,0,0,.18) 75%,rgba(0,0,0,.75)),
-  linear-gradient(0deg,rgba(0,0,0,.82),transparent 25%,transparent 75%,rgba(0,0,0,.65))}
-.loginbox{position:relative;z-index:2;backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px);background:rgba(10,10,10,.82);border:1px solid rgba(255,255,255,.10);box-shadow:0 25px 80px rgba(0,0,0,.7)}
-@keyframes streamflixPosterUp{from{transform:translateY(0)}to{transform:translateY(calc(-50% - 5px))}}
-@keyframes streamflixPosterDown{from{transform:translateY(calc(-50% - 5px))}to{transform:translateY(0)}}
-@media(max-width:650px){
-  .login-backdrop{gap:6px;filter:saturate(.72) brightness(.48)}
-  .login-poster-column{gap:6px;min-width:46px}
-  .loginbox{width:min(390px,88vw);padding:28px 24px}
-}
-@media(prefers-reduced-motion:reduce){
-  .login-poster-column{animation-play-state:paused}
-}

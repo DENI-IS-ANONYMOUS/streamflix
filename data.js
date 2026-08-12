@@ -9,8 +9,8 @@ const MOVIES=[
       "Adventure"
     ],
     "description": "A disgraced cyber-intelligence officer gets one night to stop a city-wide blackout while an unseen enemy rewrites the rules.",
-    "poster": "thumbnails/spider-man-brand-new-day.svg",
-    "backdrop": "thumbnails/spider-man-brand-new-day.svg",
+    "poster": "posters/poster-001.jpg",
+    "backdrop": "posters/poster-001.jpg",
     "video": "midnight-protocol.mp4",
     "rating": "16+",
     "runtime": null,
@@ -23,7 +23,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": true,
-    "thumb": "thumbnails/spider-man-brand-new-day.svg",
+    "thumb": "posters/poster-001.jpg",
     "duration": "2h 08m",
     "match": 98
   },
@@ -37,8 +37,8 @@ const MOVIES=[
       "Adventure"
     ],
     "description": "A 2026 action & adventure feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by action themes, unexpected choices and consequences.",
-    "poster": "thumbnails/avengers-doomsday.svg",
-    "backdrop": "thumbnails/avengers-doomsday.svg",
+    "poster": "posters/poster-002.jpg",
+    "backdrop": "posters/poster-002.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -51,7 +51,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/avengers-doomsday.svg",
+    "thumb": "posters/poster-002.jpg",
     "duration": "2h 35m",
     "match": 97
   },
@@ -65,8 +65,8 @@ const MOVIES=[
       "Adventure"
     ],
     "description": "A 2026 action & adventure feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by action themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-odyssey.svg",
-    "backdrop": "thumbnails/the-odyssey.svg",
+    "poster": "posters/poster-003.jpg",
+    "backdrop": "posters/poster-003.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -79,7 +79,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-odyssey.svg",
+    "thumb": "posters/poster-003.jpg",
     "duration": "1h 42m",
     "match": 94
   },
@@ -93,8 +93,8 @@ const MOVIES=[
       "Adventure"
     ],
     "description": "A 2026 action & adventure feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by action themes, unexpected choices and consequences.",
-    "poster": "thumbnails/star-wars-the-mandalorian-and-grogu.svg",
-    "backdrop": "thumbnails/star-wars-the-mandalorian-and-grogu.svg",
+    "poster": "posters/poster-004.jpg",
+    "backdrop": "posters/poster-004.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -107,7 +107,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/star-wars-the-mandalorian-and-grogu.svg",
+    "thumb": "posters/poster-004.jpg",
     "duration": "2h 49m",
     "match": 91
   },
@@ -121,8 +121,8 @@ const MOVIES=[
       "Adventure"
     ],
     "description": "A 2026 action & adventure feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by action themes, unexpected choices and consequences.",
-    "poster": "thumbnails/mortal-kombat-ii.svg",
-    "backdrop": "thumbnails/mortal-kombat-ii.svg",
+    "poster": "posters/poster-005.jpg",
+    "backdrop": "posters/poster-005.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -135,7 +135,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/mortal-kombat-ii.svg",
+    "thumb": "posters/poster-005.jpg",
     "duration": "1h 56m",
     "match": 98
   },
@@ -149,8 +149,8 @@ const MOVIES=[
       "Adventure"
     ],
     "description": "A 2026 action & adventure feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by action themes, unexpected choices and consequences.",
-    "poster": "thumbnails/street-fighter.svg",
-    "backdrop": "thumbnails/street-fighter.svg",
+    "poster": "posters/poster-006.jpg",
+    "backdrop": "posters/poster-006.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -163,7 +163,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/street-fighter.svg",
+    "thumb": "posters/poster-006.jpg",
     "duration": "2h 33m",
     "match": 95
   },
@@ -177,8 +177,8 @@ const MOVIES=[
       "Adventure"
     ],
     "description": "A 2026 action & adventure feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by action themes, unexpected choices and consequences.",
-    "poster": "thumbnails/masters-of-the-universe.svg",
-    "backdrop": "thumbnails/masters-of-the-universe.svg",
+    "poster": "posters/poster-007.jpg",
+    "backdrop": "posters/poster-007.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -191,7 +191,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/masters-of-the-universe.svg",
+    "thumb": "posters/poster-007.jpg",
     "duration": "1h 40m",
     "match": 92
   },
@@ -205,8 +205,8 @@ const MOVIES=[
       "Adventure"
     ],
     "description": "A 2026 action & adventure feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by action themes, unexpected choices and consequences.",
-    "poster": "thumbnails/greenland-2-migration.svg",
-    "backdrop": "thumbnails/greenland-2-migration.svg",
+    "poster": "posters/poster-008.jpg",
+    "backdrop": "posters/poster-008.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -219,7 +219,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/greenland-2-migration.svg",
+    "thumb": "posters/poster-008.jpg",
     "duration": "2h 47m",
     "match": 99
   },
@@ -233,8 +233,8 @@ const MOVIES=[
       "Adventure"
     ],
     "description": "A 2026 action & adventure feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by action themes, unexpected choices and consequences.",
-    "poster": "thumbnails/peaky-blinders-the-immortal-man.svg",
-    "backdrop": "thumbnails/peaky-blinders-the-immortal-man.svg",
+    "poster": "posters/poster-009.jpg",
+    "backdrop": "posters/poster-009.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -247,7 +247,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/peaky-blinders-the-immortal-man.svg",
+    "thumb": "posters/poster-009.jpg",
     "duration": "1h 54m",
     "match": 96
   },
@@ -261,8 +261,8 @@ const MOVIES=[
       "Adventure"
     ],
     "description": "A 2026 action & adventure feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by action themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-hunger-games-sunrise-on-the-reaping.svg",
-    "backdrop": "thumbnails/the-hunger-games-sunrise-on-the-reaping.svg",
+    "poster": "posters/poster-010.jpg",
+    "backdrop": "posters/poster-010.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -275,7 +275,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-hunger-games-sunrise-on-the-reaping.svg",
+    "thumb": "posters/poster-010.jpg",
     "duration": "2h 31m",
     "match": 93
   },
@@ -289,8 +289,8 @@ const MOVIES=[
       "Adventure"
     ],
     "description": "A 2026 action & adventure feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by action themes, unexpected choices and consequences.",
-    "poster": "thumbnails/mercy.svg",
-    "backdrop": "thumbnails/mercy.svg",
+    "poster": "posters/poster-011.jpg",
+    "backdrop": "posters/poster-011.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -303,7 +303,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/mercy.svg",
+    "thumb": "posters/poster-011.jpg",
     "duration": "1h 38m",
     "match": 90
   },
@@ -317,8 +317,8 @@ const MOVIES=[
       "Adventure"
     ],
     "description": "A 2026 action & adventure feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by action themes, unexpected choices and consequences.",
-    "poster": "thumbnails/apex.svg",
-    "backdrop": "thumbnails/apex.svg",
+    "poster": "posters/poster-012.jpg",
+    "backdrop": "posters/poster-012.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -331,7 +331,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/apex.svg",
+    "thumb": "posters/poster-012.jpg",
     "duration": "2h 45m",
     "match": 97
   },
@@ -345,8 +345,8 @@ const MOVIES=[
       "Adventure"
     ],
     "description": "A 2026 action & adventure feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by action themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-wrecking-crew.svg",
-    "backdrop": "thumbnails/the-wrecking-crew.svg",
+    "poster": "posters/poster-013.jpg",
+    "backdrop": "posters/poster-013.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -359,7 +359,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-wrecking-crew.svg",
+    "thumb": "posters/poster-013.jpg",
     "duration": "1h 52m",
     "match": 94
   },
@@ -373,8 +373,8 @@ const MOVIES=[
       "Adventure"
     ],
     "description": "A 2026 action & adventure feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by action themes, unexpected choices and consequences.",
-    "poster": "thumbnails/digger.svg",
-    "backdrop": "thumbnails/digger.svg",
+    "poster": "posters/poster-014.jpg",
+    "backdrop": "posters/poster-014.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -387,7 +387,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/digger.svg",
+    "thumb": "posters/poster-014.jpg",
     "duration": "2h 29m",
     "match": 91
   },
@@ -401,8 +401,8 @@ const MOVIES=[
       "Adventure"
     ],
     "description": "A 2026 action & adventure feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by action themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-rip.svg",
-    "backdrop": "thumbnails/the-rip.svg",
+    "poster": "posters/poster-015.jpg",
+    "backdrop": "posters/poster-015.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -415,7 +415,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-rip.svg",
+    "thumb": "posters/poster-015.jpg",
     "duration": "1h 36m",
     "match": 98
   },
@@ -429,8 +429,8 @@ const MOVIES=[
       "Adventure"
     ],
     "description": "A 2026 action & adventure feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by action themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-death-of-robin-hood.svg",
-    "backdrop": "thumbnails/the-death-of-robin-hood.svg",
+    "poster": "posters/poster-016.jpg",
+    "backdrop": "posters/poster-016.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -443,7 +443,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-death-of-robin-hood.svg",
+    "thumb": "posters/poster-016.jpg",
     "duration": "2h 43m",
     "match": 95
   },
@@ -457,8 +457,8 @@ const MOVIES=[
       "Adventure"
     ],
     "description": "A 2026 action & adventure feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by action themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-dog-stars.svg",
-    "backdrop": "thumbnails/the-dog-stars.svg",
+    "poster": "posters/poster-017.jpg",
+    "backdrop": "posters/poster-017.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -471,7 +471,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-dog-stars.svg",
+    "thumb": "posters/poster-017.jpg",
     "duration": "1h 50m",
     "match": 92
   },
@@ -485,8 +485,8 @@ const MOVIES=[
       "Adventure"
     ],
     "description": "A 2026 action & adventure feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by action themes, unexpected choices and consequences.",
-    "poster": "thumbnails/fuze.svg",
-    "backdrop": "thumbnails/fuze.svg",
+    "poster": "posters/poster-018.jpg",
+    "backdrop": "posters/poster-018.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -499,7 +499,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/fuze.svg",
+    "thumb": "posters/poster-018.jpg",
     "duration": "2h 57m",
     "match": 99
   },
@@ -513,8 +513,8 @@ const MOVIES=[
       "Adventure"
     ],
     "description": "A 2026 action & adventure feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by action themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-isolate-thief.svg",
-    "backdrop": "thumbnails/the-isolate-thief.svg",
+    "poster": "posters/poster-019.jpg",
+    "backdrop": "posters/poster-019.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -527,7 +527,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-isolate-thief.svg",
+    "thumb": "posters/poster-019.jpg",
     "duration": "1h 34m",
     "match": 96
   },
@@ -541,8 +541,8 @@ const MOVIES=[
       "Adventure"
     ],
     "description": "A 2026 action & adventure feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by action themes, unexpected choices and consequences.",
-    "poster": "thumbnails/project-hail-mary.svg",
-    "backdrop": "thumbnails/project-hail-mary.svg",
+    "poster": "posters/poster-020.jpg",
+    "backdrop": "posters/poster-020.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -555,7 +555,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/project-hail-mary.svg",
+    "thumb": "posters/poster-020.jpg",
     "duration": "2h 41m",
     "match": 93
   },
@@ -569,8 +569,8 @@ const MOVIES=[
       "Fantasy"
     ],
     "description": "A 2026 sci-fi & fantasy feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by science fiction themes, unexpected choices and consequences.",
-    "poster": "thumbnails/disclosure-day.svg",
-    "backdrop": "thumbnails/disclosure-day.svg",
+    "poster": "posters/poster-021.jpg",
+    "backdrop": "posters/poster-021.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -583,7 +583,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/disclosure-day.svg",
+    "thumb": "posters/poster-021.jpg",
     "duration": "1h 48m",
     "match": 90
   },
@@ -597,8 +597,8 @@ const MOVIES=[
       "Fantasy"
     ],
     "description": "A 2026 sci-fi & fantasy feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by science fiction themes, unexpected choices and consequences.",
-    "poster": "thumbnails/backrooms.svg",
-    "backdrop": "thumbnails/backrooms.svg",
+    "poster": "posters/poster-022.jpg",
+    "backdrop": "posters/poster-022.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -611,7 +611,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/backrooms.svg",
+    "thumb": "posters/poster-022.jpg",
     "duration": "2h 55m",
     "match": 97
   },
@@ -625,8 +625,8 @@ const MOVIES=[
       "Fantasy"
     ],
     "description": "A 2026 sci-fi & fantasy feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by science fiction themes, unexpected choices and consequences.",
-    "poster": "thumbnails/dune-part-three.svg",
-    "backdrop": "thumbnails/dune-part-three.svg",
+    "poster": "posters/poster-023.jpg",
+    "backdrop": "posters/poster-023.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -639,7 +639,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/dune-part-three.svg",
+    "thumb": "posters/poster-023.jpg",
     "duration": "1h 32m",
     "match": 94
   },
@@ -653,8 +653,8 @@ const MOVIES=[
       "Fantasy"
     ],
     "description": "A 2026 sci-fi & fantasy feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by science fiction themes, unexpected choices and consequences.",
-    "poster": "thumbnails/clayface.svg",
-    "backdrop": "thumbnails/clayface.svg",
+    "poster": "posters/poster-024.jpg",
+    "backdrop": "posters/poster-024.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -667,7 +667,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/clayface.svg",
+    "thumb": "posters/poster-024.jpg",
     "duration": "2h 39m",
     "match": 91
   },
@@ -681,8 +681,8 @@ const MOVIES=[
       "Fantasy"
     ],
     "description": "A 2026 sci-fi & fantasy feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by science fiction themes, unexpected choices and consequences.",
-    "poster": "thumbnails/good-luck-have-fun-don-t-die.svg",
-    "backdrop": "thumbnails/good-luck-have-fun-don-t-die.svg",
+    "poster": "posters/poster-025.jpg",
+    "backdrop": "posters/poster-025.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -695,7 +695,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/good-luck-have-fun-don-t-die.svg",
+    "thumb": "posters/poster-025.jpg",
     "duration": "1h 46m",
     "match": 98
   },
@@ -709,8 +709,8 @@ const MOVIES=[
       "Fantasy"
     ],
     "description": "A 2026 sci-fi & fantasy feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by science fiction themes, unexpected choices and consequences.",
-    "poster": "thumbnails/in-the-blink-of-an-eye.svg",
-    "backdrop": "thumbnails/in-the-blink-of-an-eye.svg",
+    "poster": "posters/poster-026.jpg",
+    "backdrop": "posters/poster-026.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -723,7 +723,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/in-the-blink-of-an-eye.svg",
+    "thumb": "posters/poster-026.jpg",
     "duration": "2h 53m",
     "match": 95
   },
@@ -737,8 +737,8 @@ const MOVIES=[
       "Fantasy"
     ],
     "description": "A 2026 sci-fi & fantasy feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by science fiction themes, unexpected choices and consequences.",
-    "poster": "thumbnails/zero-a-d.svg",
-    "backdrop": "thumbnails/zero-a-d.svg",
+    "poster": "posters/poster-027.jpg",
+    "backdrop": "posters/poster-027.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -751,7 +751,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/zero-a-d.svg",
+    "thumb": "posters/poster-027.jpg",
     "duration": "1h 30m",
     "match": 92
   },
@@ -765,8 +765,8 @@ const MOVIES=[
       "Fantasy"
     ],
     "description": "A 2026 sci-fi & fantasy feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by science fiction themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-barrel.svg",
-    "backdrop": "thumbnails/the-barrel.svg",
+    "poster": "posters/poster-028.jpg",
+    "backdrop": "posters/poster-028.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -779,7 +779,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-barrel.svg",
+    "thumb": "posters/poster-028.jpg",
     "duration": "2h 37m",
     "match": 99
   },
@@ -793,8 +793,8 @@ const MOVIES=[
       "Fantasy"
     ],
     "description": "A 2026 sci-fi & fantasy feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by science fiction themes, unexpected choices and consequences.",
-    "poster": "thumbnails/pressure.svg",
-    "backdrop": "thumbnails/pressure.svg",
+    "poster": "posters/poster-029.jpg",
+    "backdrop": "posters/poster-029.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -807,7 +807,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/pressure.svg",
+    "thumb": "posters/poster-029.jpg",
     "duration": "1h 44m",
     "match": 96
   },
@@ -821,8 +821,8 @@ const MOVIES=[
       "Fantasy"
     ],
     "description": "A 2026 sci-fi & fantasy feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by science fiction themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-end-of-oak-street.svg",
-    "backdrop": "thumbnails/the-end-of-oak-street.svg",
+    "poster": "posters/poster-030.jpg",
+    "backdrop": "posters/poster-030.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -835,7 +835,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-end-of-oak-street.svg",
+    "thumb": "posters/poster-030.jpg",
     "duration": "2h 51m",
     "match": 93
   },
@@ -849,8 +849,8 @@ const MOVIES=[
       "Fantasy"
     ],
     "description": "A 2026 sci-fi & fantasy feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by science fiction themes, unexpected choices and consequences.",
-    "poster": "thumbnails/soulm8te.svg",
-    "backdrop": "thumbnails/soulm8te.svg",
+    "poster": "posters/poster-031.jpg",
+    "backdrop": "posters/poster-031.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -863,7 +863,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/soulm8te.svg",
+    "thumb": "posters/poster-031.jpg",
     "duration": "1h 28m",
     "match": 90
   },
@@ -877,8 +877,8 @@ const MOVIES=[
       "Fantasy"
     ],
     "description": "A 2026 sci-fi & fantasy feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by science fiction themes, unexpected choices and consequences.",
-    "poster": "thumbnails/cold-storage.svg",
-    "backdrop": "thumbnails/cold-storage.svg",
+    "poster": "posters/poster-032.jpg",
+    "backdrop": "posters/poster-032.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -891,7 +891,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/cold-storage.svg",
+    "thumb": "posters/poster-032.jpg",
     "duration": "2h 35m",
     "match": 97
   },
@@ -905,8 +905,8 @@ const MOVIES=[
       "Fantasy"
     ],
     "description": "A 2026 sci-fi & fantasy feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by science fiction themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-last-house.svg",
-    "backdrop": "thumbnails/the-last-house.svg",
+    "poster": "posters/poster-033.jpg",
+    "backdrop": "posters/poster-033.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -919,7 +919,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-last-house.svg",
+    "thumb": "posters/poster-033.jpg",
     "duration": "1h 42m",
     "match": 94
   },
@@ -933,8 +933,8 @@ const MOVIES=[
       "Fantasy"
     ],
     "description": "A 2026 sci-fi & fantasy feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by science fiction themes, unexpected choices and consequences.",
-    "poster": "thumbnails/practical-magic-2.svg",
-    "backdrop": "thumbnails/practical-magic-2.svg",
+    "poster": "posters/poster-034.jpg",
+    "backdrop": "posters/poster-034.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -947,7 +947,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/practical-magic-2.svg",
+    "thumb": "posters/poster-034.jpg",
     "duration": "2h 49m",
     "match": 91
   },
@@ -961,8 +961,8 @@ const MOVIES=[
       "Fantasy"
     ],
     "description": "A 2026 sci-fi & fantasy feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by science fiction themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-magic-faraway-tree.svg",
-    "backdrop": "thumbnails/the-magic-faraway-tree.svg",
+    "poster": "posters/poster-035.jpg",
+    "backdrop": "posters/poster-035.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -975,7 +975,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-magic-faraway-tree.svg",
+    "thumb": "posters/poster-035.jpg",
     "duration": "1h 56m",
     "match": 98
   },
@@ -989,8 +989,8 @@ const MOVIES=[
       "Fantasy"
     ],
     "description": "A 2026 sci-fi & fantasy feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by science fiction themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-bride.svg",
-    "backdrop": "thumbnails/the-bride.svg",
+    "poster": "posters/poster-036.jpg",
+    "backdrop": "posters/poster-036.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1003,7 +1003,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-bride.svg",
+    "thumb": "posters/poster-036.jpg",
     "duration": "2h 33m",
     "match": 95
   },
@@ -1017,8 +1017,8 @@ const MOVIES=[
       "Fantasy"
     ],
     "description": "A 2026 sci-fi & fantasy feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by science fiction themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-housemaid.svg",
-    "backdrop": "thumbnails/the-housemaid.svg",
+    "poster": "posters/poster-037.jpg",
+    "backdrop": "posters/poster-037.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -1031,7 +1031,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-housemaid.svg",
+    "thumb": "posters/poster-037.jpg",
     "duration": "1h 40m",
     "match": 92
   },
@@ -1045,8 +1045,8 @@ const MOVIES=[
       "Fantasy"
     ],
     "description": "A 2026 sci-fi & fantasy feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by science fiction themes, unexpected choices and consequences.",
-    "poster": "thumbnails/obsession.svg",
-    "backdrop": "thumbnails/obsession.svg",
+    "poster": "posters/poster-038.jpg",
+    "backdrop": "posters/poster-038.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1059,7 +1059,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/obsession.svg",
+    "thumb": "posters/poster-038.jpg",
     "duration": "2h 47m",
     "match": 99
   },
@@ -1073,8 +1073,8 @@ const MOVIES=[
       "Fantasy"
     ],
     "description": "A 2026 sci-fi & fantasy feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by science fiction themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-mummy.svg",
-    "backdrop": "thumbnails/the-mummy.svg",
+    "poster": "posters/poster-039.jpg",
+    "backdrop": "posters/poster-039.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1087,7 +1087,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-mummy.svg",
+    "thumb": "posters/poster-039.jpg",
     "duration": "1h 54m",
     "match": 96
   },
@@ -1101,8 +1101,8 @@ const MOVIES=[
       "Fantasy"
     ],
     "description": "A 2026 sci-fi & fantasy feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by science fiction themes, unexpected choices and consequences.",
-    "poster": "thumbnails/weapons.svg",
-    "backdrop": "thumbnails/weapons.svg",
+    "poster": "posters/poster-040.jpg",
+    "backdrop": "posters/poster-040.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -1115,7 +1115,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/weapons.svg",
+    "thumb": "posters/poster-040.jpg",
     "duration": "2h 31m",
     "match": 93
   },
@@ -1129,8 +1129,8 @@ const MOVIES=[
       "Thriller"
     ],
     "description": "A 2026 horror & thriller feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by horror themes, unexpected choices and consequences.",
-    "poster": "thumbnails/scream-7.svg",
-    "backdrop": "thumbnails/scream-7.svg",
+    "poster": "posters/poster-041.jpg",
+    "backdrop": "posters/poster-041.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1143,7 +1143,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/scream-7.svg",
+    "thumb": "posters/poster-041.jpg",
     "duration": "1h 38m",
     "match": 90
   },
@@ -1157,8 +1157,8 @@ const MOVIES=[
       "Thriller"
     ],
     "description": "A 2026 horror & thriller feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by horror themes, unexpected choices and consequences.",
-    "poster": "thumbnails/28-years-later-the-bone-temple.svg",
-    "backdrop": "thumbnails/28-years-later-the-bone-temple.svg",
+    "poster": "posters/poster-042.jpg",
+    "backdrop": "posters/poster-042.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1171,7 +1171,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/28-years-later-the-bone-temple.svg",
+    "thumb": "posters/poster-042.jpg",
     "duration": "2h 45m",
     "match": 97
   },
@@ -1185,8 +1185,8 @@ const MOVIES=[
       "Thriller"
     ],
     "description": "A 2026 horror & thriller feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by horror themes, unexpected choices and consequences.",
-    "poster": "thumbnails/ready-or-not-2-here-i-come.svg",
-    "backdrop": "thumbnails/ready-or-not-2-here-i-come.svg",
+    "poster": "posters/poster-043.jpg",
+    "backdrop": "posters/poster-043.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -1199,7 +1199,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/ready-or-not-2-here-i-come.svg",
+    "thumb": "posters/poster-043.jpg",
     "duration": "1h 52m",
     "match": 94
   },
@@ -1213,8 +1213,8 @@ const MOVIES=[
       "Thriller"
     ],
     "description": "A 2026 horror & thriller feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by horror themes, unexpected choices and consequences.",
-    "poster": "thumbnails/evil-dead-burn.svg",
-    "backdrop": "thumbnails/evil-dead-burn.svg",
+    "poster": "posters/poster-044.jpg",
+    "backdrop": "posters/poster-044.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1227,7 +1227,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/evil-dead-burn.svg",
+    "thumb": "posters/poster-044.jpg",
     "duration": "2h 29m",
     "match": 91
   },
@@ -1241,8 +1241,8 @@ const MOVIES=[
       "Thriller"
     ],
     "description": "A 2026 horror & thriller feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by horror themes, unexpected choices and consequences.",
-    "poster": "thumbnails/return-to-silent-hill.svg",
-    "backdrop": "thumbnails/return-to-silent-hill.svg",
+    "poster": "posters/poster-045.jpg",
+    "backdrop": "posters/poster-045.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1255,7 +1255,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/return-to-silent-hill.svg",
+    "thumb": "posters/poster-045.jpg",
     "duration": "1h 36m",
     "match": 98
   },
@@ -1269,8 +1269,8 @@ const MOVIES=[
       "Thriller"
     ],
     "description": "A 2026 horror & thriller feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by horror themes, unexpected choices and consequences.",
-    "poster": "thumbnails/send-help.svg",
-    "backdrop": "thumbnails/send-help.svg",
+    "poster": "posters/poster-046.jpg",
+    "backdrop": "posters/poster-046.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -1283,7 +1283,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/send-help.svg",
+    "thumb": "posters/poster-046.jpg",
     "duration": "2h 43m",
     "match": 95
   },
@@ -1297,8 +1297,8 @@ const MOVIES=[
       "Thriller"
     ],
     "description": "A 2026 horror & thriller feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by horror themes, unexpected choices and consequences.",
-    "poster": "thumbnails/primate.svg",
-    "backdrop": "thumbnails/primate.svg",
+    "poster": "posters/poster-047.jpg",
+    "backdrop": "posters/poster-047.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1311,7 +1311,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/primate.svg",
+    "thumb": "posters/poster-047.jpg",
     "duration": "1h 50m",
     "match": 92
   },
@@ -1325,8 +1325,8 @@ const MOVIES=[
       "Thriller"
     ],
     "description": "A 2026 horror & thriller feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by horror themes, unexpected choices and consequences.",
-    "poster": "thumbnails/iron-lung.svg",
-    "backdrop": "thumbnails/iron-lung.svg",
+    "poster": "posters/poster-048.jpg",
+    "backdrop": "posters/poster-048.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1339,7 +1339,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/iron-lung.svg",
+    "thumb": "posters/poster-048.jpg",
     "duration": "2h 57m",
     "match": 99
   },
@@ -1353,8 +1353,8 @@ const MOVIES=[
       "Thriller"
     ],
     "description": "A 2026 horror & thriller feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by horror themes, unexpected choices and consequences.",
-    "poster": "thumbnails/pinocchio-unstrung.svg",
-    "backdrop": "thumbnails/pinocchio-unstrung.svg",
+    "poster": "posters/poster-049.jpg",
+    "backdrop": "posters/poster-049.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -1367,7 +1367,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/pinocchio-unstrung.svg",
+    "thumb": "posters/poster-049.jpg",
     "duration": "1h 34m",
     "match": 96
   },
@@ -1381,8 +1381,8 @@ const MOVIES=[
       "Thriller"
     ],
     "description": "A 2026 horror & thriller feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by horror themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-strangers-chapter-iii.svg",
-    "backdrop": "thumbnails/the-strangers-chapter-iii.svg",
+    "poster": "posters/poster-050.jpg",
+    "backdrop": "posters/poster-050.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1395,7 +1395,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-strangers-chapter-iii.svg",
+    "thumb": "posters/poster-050.jpg",
     "duration": "2h 41m",
     "match": 93
   },
@@ -1409,8 +1409,8 @@ const MOVIES=[
       "Thriller"
     ],
     "description": "A 2026 horror & thriller feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by horror themes, unexpected choices and consequences.",
-    "poster": "thumbnails/psycho-killer.svg",
-    "backdrop": "thumbnails/psycho-killer.svg",
+    "poster": "posters/poster-051.jpg",
+    "backdrop": "posters/poster-051.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1423,7 +1423,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/psycho-killer.svg",
+    "thumb": "posters/poster-051.jpg",
     "duration": "1h 48m",
     "match": 90
   },
@@ -1437,8 +1437,8 @@ const MOVIES=[
       "Thriller"
     ],
     "description": "A 2026 horror & thriller feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by horror themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-gates.svg",
-    "backdrop": "thumbnails/the-gates.svg",
+    "poster": "posters/poster-052.jpg",
+    "backdrop": "posters/poster-052.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -1451,7 +1451,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-gates.svg",
+    "thumb": "posters/poster-052.jpg",
     "duration": "2h 55m",
     "match": 97
   },
@@ -1465,8 +1465,8 @@ const MOVIES=[
       "Thriller"
     ],
     "description": "A 2026 horror & thriller feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by horror themes, unexpected choices and consequences.",
-    "poster": "thumbnails/all-night-wrong.svg",
-    "backdrop": "thumbnails/all-night-wrong.svg",
+    "poster": "posters/poster-053.jpg",
+    "backdrop": "posters/poster-053.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1479,7 +1479,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/all-night-wrong.svg",
+    "thumb": "posters/poster-053.jpg",
     "duration": "1h 32m",
     "match": 94
   },
@@ -1493,8 +1493,8 @@ const MOVIES=[
       "Thriller"
     ],
     "description": "A 2026 horror & thriller feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by horror themes, unexpected choices and consequences.",
-    "poster": "thumbnails/i-swear.svg",
-    "backdrop": "thumbnails/i-swear.svg",
+    "poster": "posters/poster-054.jpg",
+    "backdrop": "posters/poster-054.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1507,7 +1507,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/i-swear.svg",
+    "thumb": "posters/poster-054.jpg",
     "duration": "2h 39m",
     "match": 91
   },
@@ -1521,8 +1521,8 @@ const MOVIES=[
       "Thriller"
     ],
     "description": "A 2026 horror & thriller feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by horror themes, unexpected choices and consequences.",
-    "poster": "thumbnails/five-nights-at-freddy-s-2.svg",
-    "backdrop": "thumbnails/five-nights-at-freddy-s-2.svg",
+    "poster": "posters/poster-055.jpg",
+    "backdrop": "posters/poster-055.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -1535,7 +1535,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/five-nights-at-freddy-s-2.svg",
+    "thumb": "posters/poster-055.jpg",
     "duration": "1h 46m",
     "match": 98
   },
@@ -1549,8 +1549,8 @@ const MOVIES=[
       "Thriller"
     ],
     "description": "A 2026 horror & thriller feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by horror themes, unexpected choices and consequences.",
-    "poster": "thumbnails/insidious-out-of-the-further.svg",
-    "backdrop": "thumbnails/insidious-out-of-the-further.svg",
+    "poster": "posters/poster-056.jpg",
+    "backdrop": "posters/poster-056.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1563,7 +1563,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/insidious-out-of-the-further.svg",
+    "thumb": "posters/poster-056.jpg",
     "duration": "2h 53m",
     "match": 95
   },
@@ -1577,8 +1577,8 @@ const MOVIES=[
       "Thriller"
     ],
     "description": "A 2026 horror & thriller feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by horror themes, unexpected choices and consequences.",
-    "poster": "thumbnails/lee-cronin-s-the-mummy.svg",
-    "backdrop": "thumbnails/lee-cronin-s-the-mummy.svg",
+    "poster": "posters/poster-057.jpg",
+    "backdrop": "posters/poster-057.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1591,7 +1591,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/lee-cronin-s-the-mummy.svg",
+    "thumb": "posters/poster-057.jpg",
     "duration": "1h 30m",
     "match": 92
   },
@@ -1605,8 +1605,8 @@ const MOVIES=[
       "Thriller"
     ],
     "description": "A 2026 horror & thriller feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by horror themes, unexpected choices and consequences.",
-    "poster": "thumbnails/danur-the-last-chapter.svg",
-    "backdrop": "thumbnails/danur-the-last-chapter.svg",
+    "poster": "posters/poster-058.jpg",
+    "backdrop": "posters/poster-058.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -1619,7 +1619,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/danur-the-last-chapter.svg",
+    "thumb": "posters/poster-058.jpg",
     "duration": "2h 37m",
     "match": 99
   },
@@ -1633,8 +1633,8 @@ const MOVIES=[
       "Thriller"
     ],
     "description": "A 2026 horror & thriller feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by horror themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-black-phone-2.svg",
-    "backdrop": "thumbnails/the-black-phone-2.svg",
+    "poster": "posters/poster-059.jpg",
+    "backdrop": "posters/poster-059.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1647,7 +1647,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-black-phone-2.svg",
+    "thumb": "posters/poster-059.jpg",
     "duration": "1h 44m",
     "match": 96
   },
@@ -1661,8 +1661,8 @@ const MOVIES=[
       "Thriller"
     ],
     "description": "A 2026 horror & thriller feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by horror themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-strangers-chapter-3.svg",
-    "backdrop": "thumbnails/the-strangers-chapter-3.svg",
+    "poster": "posters/poster-060.jpg",
+    "backdrop": "posters/poster-060.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1675,7 +1675,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-strangers-chapter-3.svg",
+    "thumb": "posters/poster-060.jpg",
     "duration": "2h 51m",
     "match": 93
   },
@@ -1689,8 +1689,8 @@ const MOVIES=[
       "Drama"
     ],
     "description": "A 2026 comedy & drama feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by comedy themes, unexpected choices and consequences.",
-    "poster": "thumbnails/michael.svg",
-    "backdrop": "thumbnails/michael.svg",
+    "poster": "posters/poster-061.jpg",
+    "backdrop": "posters/poster-061.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -1703,7 +1703,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/michael.svg",
+    "thumb": "posters/poster-061.jpg",
     "duration": "1h 28m",
     "match": 90
   },
@@ -1717,8 +1717,8 @@ const MOVIES=[
       "Drama"
     ],
     "description": "A 2026 comedy & drama feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by comedy themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-devil-wears-prada-2.svg",
-    "backdrop": "thumbnails/the-devil-wears-prada-2.svg",
+    "poster": "posters/poster-062.jpg",
+    "backdrop": "posters/poster-062.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1731,7 +1731,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-devil-wears-prada-2.svg",
+    "thumb": "posters/poster-062.jpg",
     "duration": "2h 35m",
     "match": 97
   },
@@ -1745,8 +1745,8 @@ const MOVIES=[
       "Drama"
     ],
     "description": "A 2026 comedy & drama feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by comedy themes, unexpected choices and consequences.",
-    "poster": "thumbnails/wuthering-heights.svg",
-    "backdrop": "thumbnails/wuthering-heights.svg",
+    "poster": "posters/poster-063.jpg",
+    "backdrop": "posters/poster-063.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1759,7 +1759,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/wuthering-heights.svg",
+    "thumb": "posters/poster-063.jpg",
     "duration": "1h 42m",
     "match": 94
   },
@@ -1773,8 +1773,8 @@ const MOVIES=[
       "Drama"
     ],
     "description": "A 2026 comedy & drama feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by comedy themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-invite.svg",
-    "backdrop": "thumbnails/the-invite.svg",
+    "poster": "posters/poster-064.jpg",
+    "backdrop": "posters/poster-064.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -1787,7 +1787,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-invite.svg",
+    "thumb": "posters/poster-064.jpg",
     "duration": "2h 49m",
     "match": 91
   },
@@ -1801,8 +1801,8 @@ const MOVIES=[
       "Drama"
     ],
     "description": "A 2026 comedy & drama feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by comedy themes, unexpected choices and consequences.",
-    "poster": "thumbnails/mother-mary.svg",
-    "backdrop": "thumbnails/mother-mary.svg",
+    "poster": "posters/poster-065.jpg",
+    "backdrop": "posters/poster-065.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1815,7 +1815,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/mother-mary.svg",
+    "thumb": "posters/poster-065.jpg",
     "duration": "1h 56m",
     "match": 98
   },
@@ -1829,8 +1829,8 @@ const MOVIES=[
       "Drama"
     ],
     "description": "A 2026 comedy & drama feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by comedy themes, unexpected choices and consequences.",
-    "poster": "thumbnails/normal.svg",
-    "backdrop": "thumbnails/normal.svg",
+    "poster": "posters/poster-066.jpg",
+    "backdrop": "posters/poster-066.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1843,7 +1843,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/normal.svg",
+    "thumb": "posters/poster-066.jpg",
     "duration": "2h 33m",
     "match": 95
   },
@@ -1857,8 +1857,8 @@ const MOVIES=[
       "Drama"
     ],
     "description": "A 2026 comedy & drama feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by comedy themes, unexpected choices and consequences.",
-    "poster": "thumbnails/california-schemin.svg",
-    "backdrop": "thumbnails/california-schemin.svg",
+    "poster": "posters/poster-067.jpg",
+    "backdrop": "posters/poster-067.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -1871,7 +1871,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/california-schemin.svg",
+    "thumb": "posters/poster-067.jpg",
     "duration": "1h 40m",
     "match": 92
   },
@@ -1885,8 +1885,8 @@ const MOVIES=[
       "Drama"
     ],
     "description": "A 2026 comedy & drama feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by comedy themes, unexpected choices and consequences.",
-    "poster": "thumbnails/tow.svg",
-    "backdrop": "thumbnails/tow.svg",
+    "poster": "posters/poster-068.jpg",
+    "backdrop": "posters/poster-068.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1899,7 +1899,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/tow.svg",
+    "thumb": "posters/poster-068.jpg",
     "duration": "2h 47m",
     "match": 99
   },
@@ -1913,8 +1913,8 @@ const MOVIES=[
       "Drama"
     ],
     "description": "A 2026 comedy & drama feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by comedy themes, unexpected choices and consequences.",
-    "poster": "thumbnails/72-hours.svg",
-    "backdrop": "thumbnails/72-hours.svg",
+    "poster": "posters/poster-069.jpg",
+    "backdrop": "posters/poster-069.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1927,7 +1927,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/72-hours.svg",
+    "thumb": "posters/poster-069.jpg",
     "duration": "1h 54m",
     "match": 96
   },
@@ -1941,8 +1941,8 @@ const MOVIES=[
       "Drama"
     ],
     "description": "A 2026 comedy & drama feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by comedy themes, unexpected choices and consequences.",
-    "poster": "thumbnails/his-hers-ours.svg",
-    "backdrop": "thumbnails/his-hers-ours.svg",
+    "poster": "posters/poster-070.jpg",
+    "backdrop": "posters/poster-070.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -1955,7 +1955,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/his-hers-ours.svg",
+    "thumb": "posters/poster-070.jpg",
     "duration": "2h 31m",
     "match": 93
   },
@@ -1969,8 +1969,8 @@ const MOVIES=[
       "Drama"
     ],
     "description": "A 2026 comedy & drama feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by comedy themes, unexpected choices and consequences.",
-    "poster": "thumbnails/late-fame.svg",
-    "backdrop": "thumbnails/late-fame.svg",
+    "poster": "posters/poster-071.jpg",
+    "backdrop": "posters/poster-071.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -1983,7 +1983,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/late-fame.svg",
+    "thumb": "posters/poster-071.jpg",
     "duration": "1h 38m",
     "match": 90
   },
@@ -1997,8 +1997,8 @@ const MOVIES=[
       "Drama"
     ],
     "description": "A 2026 comedy & drama feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by comedy themes, unexpected choices and consequences.",
-    "poster": "thumbnails/i-want-your-sex.svg",
-    "backdrop": "thumbnails/i-want-your-sex.svg",
+    "poster": "posters/poster-072.jpg",
+    "backdrop": "posters/poster-072.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -2011,7 +2011,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/i-want-your-sex.svg",
+    "thumb": "posters/poster-072.jpg",
     "duration": "2h 45m",
     "match": 97
   },
@@ -2025,8 +2025,8 @@ const MOVIES=[
       "Drama"
     ],
     "description": "A 2026 comedy & drama feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by comedy themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-big-cheese.svg",
-    "backdrop": "thumbnails/the-big-cheese.svg",
+    "poster": "posters/poster-073.jpg",
+    "backdrop": "posters/poster-073.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -2039,7 +2039,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-big-cheese.svg",
+    "thumb": "posters/poster-073.jpg",
     "duration": "1h 52m",
     "match": 94
   },
@@ -2053,8 +2053,8 @@ const MOVIES=[
       "Drama"
     ],
     "description": "A 2026 comedy & drama feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by comedy themes, unexpected choices and consequences.",
-    "poster": "thumbnails/jimmy.svg",
-    "backdrop": "thumbnails/jimmy.svg",
+    "poster": "posters/poster-074.jpg",
+    "backdrop": "posters/poster-074.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -2067,7 +2067,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/jimmy.svg",
+    "thumb": "posters/poster-074.jpg",
     "duration": "2h 29m",
     "match": 91
   },
@@ -2081,8 +2081,8 @@ const MOVIES=[
       "Drama"
     ],
     "description": "A 2026 comedy & drama feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by comedy themes, unexpected choices and consequences.",
-    "poster": "thumbnails/good-fortune.svg",
-    "backdrop": "thumbnails/good-fortune.svg",
+    "poster": "posters/poster-075.jpg",
+    "backdrop": "posters/poster-075.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -2095,7 +2095,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/good-fortune.svg",
+    "thumb": "posters/poster-075.jpg",
     "duration": "1h 36m",
     "match": 98
   },
@@ -2109,8 +2109,8 @@ const MOVIES=[
       "Drama"
     ],
     "description": "A 2026 comedy & drama feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by comedy themes, unexpected choices and consequences.",
-    "poster": "thumbnails/couture.svg",
-    "backdrop": "thumbnails/couture.svg",
+    "poster": "posters/poster-076.jpg",
+    "backdrop": "posters/poster-076.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -2123,7 +2123,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/couture.svg",
+    "thumb": "posters/poster-076.jpg",
     "duration": "2h 43m",
     "match": 95
   },
@@ -2137,8 +2137,8 @@ const MOVIES=[
       "Drama"
     ],
     "description": "A 2026 comedy & drama feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by comedy themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-drama.svg",
-    "backdrop": "thumbnails/the-drama.svg",
+    "poster": "posters/poster-077.jpg",
+    "backdrop": "posters/poster-077.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -2151,7 +2151,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-drama.svg",
+    "thumb": "posters/poster-077.jpg",
     "duration": "1h 50m",
     "match": 92
   },
@@ -2165,8 +2165,8 @@ const MOVIES=[
       "Drama"
     ],
     "description": "A 2026 comedy & drama feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by comedy themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-test.svg",
-    "backdrop": "thumbnails/the-test.svg",
+    "poster": "posters/poster-078.jpg",
+    "backdrop": "posters/poster-078.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -2179,7 +2179,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-test.svg",
+    "thumb": "posters/poster-078.jpg",
     "duration": "2h 57m",
     "match": 99
   },
@@ -2193,8 +2193,8 @@ const MOVIES=[
       "Drama"
     ],
     "description": "A 2026 comedy & drama feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by comedy themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-correspondent.svg",
-    "backdrop": "thumbnails/the-correspondent.svg",
+    "poster": "posters/poster-079.jpg",
+    "backdrop": "posters/poster-079.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -2207,7 +2207,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-correspondent.svg",
+    "thumb": "posters/poster-079.jpg",
     "duration": "1h 34m",
     "match": 96
   },
@@ -2221,8 +2221,8 @@ const MOVIES=[
       "Drama"
     ],
     "description": "A 2026 comedy & drama feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by comedy themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-beloved.svg",
-    "backdrop": "thumbnails/the-beloved.svg",
+    "poster": "posters/poster-080.jpg",
+    "backdrop": "posters/poster-080.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -2235,7 +2235,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-beloved.svg",
+    "thumb": "posters/poster-080.jpg",
     "duration": "2h 41m",
     "match": 93
   },
@@ -2249,8 +2249,8 @@ const MOVIES=[
       "Family"
     ],
     "description": "A 2026 animation & family feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by animation themes, unexpected choices and consequences.",
-    "poster": "thumbnails/toy-story-5.svg",
-    "backdrop": "thumbnails/toy-story-5.svg",
+    "poster": "posters/poster-081.jpg",
+    "backdrop": "posters/poster-081.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -2263,7 +2263,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/toy-story-5.svg",
+    "thumb": "posters/poster-081.jpg",
     "duration": "1h 48m",
     "match": 90
   },
@@ -2277,8 +2277,8 @@ const MOVIES=[
       "Family"
     ],
     "description": "A 2026 animation & family feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by animation themes, unexpected choices and consequences.",
-    "poster": "thumbnails/hoppers.svg",
-    "backdrop": "thumbnails/hoppers.svg",
+    "poster": "posters/poster-082.jpg",
+    "backdrop": "posters/poster-082.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -2291,7 +2291,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/hoppers.svg",
+    "thumb": "posters/poster-082.jpg",
     "duration": "2h 55m",
     "match": 97
   },
@@ -2305,8 +2305,8 @@ const MOVIES=[
       "Family"
     ],
     "description": "A 2026 animation & family feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by animation themes, unexpected choices and consequences.",
-    "poster": "thumbnails/minions-monsters.svg",
-    "backdrop": "thumbnails/minions-monsters.svg",
+    "poster": "posters/poster-083.jpg",
+    "backdrop": "posters/poster-083.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -2319,7 +2319,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/minions-monsters.svg",
+    "thumb": "posters/poster-083.jpg",
     "duration": "1h 32m",
     "match": 94
   },
@@ -2333,8 +2333,8 @@ const MOVIES=[
       "Family"
     ],
     "description": "A 2026 animation & family feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by animation themes, unexpected choices and consequences.",
-    "poster": "thumbnails/goat.svg",
-    "backdrop": "thumbnails/goat.svg",
+    "poster": "posters/poster-084.jpg",
+    "backdrop": "posters/poster-084.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -2347,7 +2347,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/goat.svg",
+    "thumb": "posters/poster-084.jpg",
     "duration": "2h 39m",
     "match": 91
   },
@@ -2361,8 +2361,8 @@ const MOVIES=[
       "Family"
     ],
     "description": "A 2026 animation & family feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by animation themes, unexpected choices and consequences.",
-    "poster": "thumbnails/moana.svg",
-    "backdrop": "thumbnails/moana.svg",
+    "poster": "posters/poster-085.jpg",
+    "backdrop": "posters/poster-085.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -2375,7 +2375,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/moana.svg",
+    "thumb": "posters/poster-085.jpg",
     "duration": "1h 46m",
     "match": 98
   },
@@ -2389,8 +2389,8 @@ const MOVIES=[
       "Family"
     ],
     "description": "A 2026 animation & family feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by animation themes, unexpected choices and consequences.",
-    "poster": "thumbnails/paw-patrol-the-dino-movie.svg",
-    "backdrop": "thumbnails/paw-patrol-the-dino-movie.svg",
+    "poster": "posters/poster-086.jpg",
+    "backdrop": "posters/poster-086.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -2403,7 +2403,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/paw-patrol-the-dino-movie.svg",
+    "thumb": "posters/poster-086.jpg",
     "duration": "2h 53m",
     "match": 95
   },
@@ -2417,8 +2417,8 @@ const MOVIES=[
       "Family"
     ],
     "description": "A 2026 animation & family feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by animation themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-angry-birds-movie-3.svg",
-    "backdrop": "thumbnails/the-angry-birds-movie-3.svg",
+    "poster": "posters/poster-087.jpg",
+    "backdrop": "posters/poster-087.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -2431,7 +2431,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-angry-birds-movie-3.svg",
+    "thumb": "posters/poster-087.jpg",
     "duration": "1h 30m",
     "match": 92
   },
@@ -2445,8 +2445,8 @@ const MOVIES=[
       "Family"
     ],
     "description": "A 2026 animation & family feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by animation themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-pout-pout-fish.svg",
-    "backdrop": "thumbnails/the-pout-pout-fish.svg",
+    "poster": "posters/poster-088.jpg",
+    "backdrop": "posters/poster-088.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -2459,7 +2459,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-pout-pout-fish.svg",
+    "thumb": "posters/poster-088.jpg",
     "duration": "2h 37m",
     "match": 99
   },
@@ -2473,8 +2473,8 @@ const MOVIES=[
       "Family"
     ],
     "description": "A 2026 animation & family feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by animation themes, unexpected choices and consequences.",
-    "poster": "thumbnails/a-magnificent-life.svg",
-    "backdrop": "thumbnails/a-magnificent-life.svg",
+    "poster": "posters/poster-089.jpg",
+    "backdrop": "posters/poster-089.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -2487,7 +2487,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/a-magnificent-life.svg",
+    "thumb": "posters/poster-089.jpg",
     "duration": "1h 44m",
     "match": 96
   },
@@ -2501,8 +2501,8 @@ const MOVIES=[
       "Family"
     ],
     "description": "A 2026 animation & family feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by animation themes, unexpected choices and consequences.",
-    "poster": "thumbnails/doraemon-new-nobita-and-the-castle-of-the-undersea-devil.svg",
-    "backdrop": "thumbnails/doraemon-new-nobita-and-the-castle-of-the-undersea-devil.svg",
+    "poster": "posters/poster-090.jpg",
+    "backdrop": "posters/poster-090.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -2515,7 +2515,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/doraemon-new-nobita-and-the-castle-of-the-undersea-devil.svg",
+    "thumb": "posters/poster-090.jpg",
     "duration": "2h 51m",
     "match": 93
   },
@@ -2529,8 +2529,8 @@ const MOVIES=[
       "Family"
     ],
     "description": "A 2026 animation & family feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by animation themes, unexpected choices and consequences.",
-    "poster": "thumbnails/forgotten-island.svg",
-    "backdrop": "thumbnails/forgotten-island.svg",
+    "poster": "posters/poster-091.jpg",
+    "backdrop": "posters/poster-091.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -2543,7 +2543,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/forgotten-island.svg",
+    "thumb": "posters/poster-091.jpg",
     "duration": "1h 28m",
     "match": 90
   },
@@ -2557,8 +2557,8 @@ const MOVIES=[
       "Family"
     ],
     "description": "A 2026 animation & family feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by animation themes, unexpected choices and consequences.",
-    "poster": "thumbnails/ray-gunn.svg",
-    "backdrop": "thumbnails/ray-gunn.svg",
+    "poster": "posters/poster-092.jpg",
+    "backdrop": "posters/poster-092.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -2571,7 +2571,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/ray-gunn.svg",
+    "thumb": "posters/poster-092.jpg",
     "duration": "2h 35m",
     "match": 97
   },
@@ -2585,8 +2585,8 @@ const MOVIES=[
       "Family"
     ],
     "description": "A 2026 animation & family feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by animation themes, unexpected choices and consequences.",
-    "poster": "thumbnails/wildwood.svg",
-    "backdrop": "thumbnails/wildwood.svg",
+    "poster": "posters/poster-093.jpg",
+    "backdrop": "posters/poster-093.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -2599,7 +2599,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/wildwood.svg",
+    "thumb": "posters/poster-093.jpg",
     "duration": "1h 42m",
     "match": 94
   },
@@ -2613,8 +2613,8 @@ const MOVIES=[
       "Family"
     ],
     "description": "A 2026 animation & family feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by animation themes, unexpected choices and consequences.",
-    "poster": "thumbnails/swapped.svg",
-    "backdrop": "thumbnails/swapped.svg",
+    "poster": "posters/poster-094.jpg",
+    "backdrop": "posters/poster-094.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -2627,7 +2627,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/swapped.svg",
+    "thumb": "posters/poster-094.jpg",
     "duration": "2h 49m",
     "match": 91
   },
@@ -2641,8 +2641,8 @@ const MOVIES=[
       "Family"
     ],
     "description": "A 2026 animation & family feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by animation themes, unexpected choices and consequences.",
-    "poster": "thumbnails/hexed.svg",
-    "backdrop": "thumbnails/hexed.svg",
+    "poster": "posters/poster-095.jpg",
+    "backdrop": "posters/poster-095.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -2655,7 +2655,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/hexed.svg",
+    "thumb": "posters/poster-095.jpg",
     "duration": "1h 56m",
     "match": 98
   },
@@ -2669,8 +2669,8 @@ const MOVIES=[
       "Family"
     ],
     "description": "A 2026 animation & family feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by animation themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-cat-in-the-hat.svg",
-    "backdrop": "thumbnails/the-cat-in-the-hat.svg",
+    "poster": "posters/poster-096.jpg",
+    "backdrop": "posters/poster-096.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -2683,7 +2683,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-cat-in-the-hat.svg",
+    "thumb": "posters/poster-096.jpg",
     "duration": "2h 33m",
     "match": 95
   },
@@ -2697,8 +2697,8 @@ const MOVIES=[
       "Family"
     ],
     "description": "A 2026 animation & family feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by animation themes, unexpected choices and consequences.",
-    "poster": "thumbnails/animal-farm.svg",
-    "backdrop": "thumbnails/animal-farm.svg",
+    "poster": "posters/poster-097.jpg",
+    "backdrop": "posters/poster-097.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -2711,7 +2711,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/animal-farm.svg",
+    "thumb": "posters/poster-097.jpg",
     "duration": "1h 40m",
     "match": 92
   },
@@ -2725,8 +2725,8 @@ const MOVIES=[
       "Family"
     ],
     "description": "A 2026 animation & family feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by animation themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-legend-of-aang-the-last-airbender.svg",
-    "backdrop": "thumbnails/the-legend-of-aang-the-last-airbender.svg",
+    "poster": "posters/poster-098.jpg",
+    "backdrop": "posters/poster-098.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -2739,7 +2739,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-legend-of-aang-the-last-airbender.svg",
+    "thumb": "posters/poster-098.jpg",
     "duration": "2h 47m",
     "match": 99
   },
@@ -2753,8 +2753,8 @@ const MOVIES=[
       "Family"
     ],
     "description": "A 2026 animation & family feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by animation themes, unexpected choices and consequences.",
-    "poster": "thumbnails/shaun-the-sheep-the-beast-of-mossy-bottom.svg",
-    "backdrop": "thumbnails/shaun-the-sheep-the-beast-of-mossy-bottom.svg",
+    "poster": "posters/poster-099.jpg",
+    "backdrop": "posters/poster-099.jpg",
     "video": null,
     "rating": "13+",
     "runtime": null,
@@ -2767,7 +2767,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/shaun-the-sheep-the-beast-of-mossy-bottom.svg",
+    "thumb": "posters/poster-099.jpg",
     "duration": "1h 54m",
     "match": 96
   },
@@ -2781,8 +2781,8 @@ const MOVIES=[
       "Family"
     ],
     "description": "A 2026 animation & family feature presented in the StreamFlix catalog. Follow the characters as they face a high-stakes story shaped by animation themes, unexpected choices and consequences.",
-    "poster": "thumbnails/the-sheep-detectives.svg",
-    "backdrop": "thumbnails/the-sheep-detectives.svg",
+    "poster": "posters/poster-100.jpg",
+    "backdrop": "posters/poster-100.jpg",
     "video": null,
     "rating": "16+",
     "runtime": null,
@@ -2795,7 +2795,7 @@ const MOVIES=[
     ],
     "status": "2026",
     "isPlayable": false,
-    "thumb": "thumbnails/the-sheep-detectives.svg",
+    "thumb": "posters/poster-100.jpg",
     "duration": "2h 31m",
     "match": 93
   }
