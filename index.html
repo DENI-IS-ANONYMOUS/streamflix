@@ -1,10 +1,55 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>StreamFlix — Movie Streaming</title><link rel="stylesheet" href="styles.css"></head><body>
-<div id="login" class="login hidden"><div class="loginbox"><div class="logo">STREAMFLIX</div><div class="auth-tabs"><button id="loginTab" class="active" onclick="showAuth('login')">Sign in</button><button id="signupTab" onclick="showAuth('signup')">Create account</button></div><div id="loginForm"><h1>Sign in</h1><div class="field"><label>Email</label><input id="email" type="email" placeholder="you@example.com"></div><div class="field"><label>Password</label><input id="password" type="password" placeholder="••••••••"></div><button class="btn primary" onclick="login()">Sign in</button></div><div id="signupForm" class="hidden"><h1>Create account</h1><div class="field"><label>Username</label><input id="signupUsername" placeholder="Choose a username"></div><div class="field"><label>Email</label><input id="signupEmail" type="email" placeholder="you@example.com"></div><div class="field"><label>Password</label><input id="signupPassword" type="password" placeholder="At least 4 characters"></div><div class="field"><label>Profile picture <span class="optional">(optional)</span></label><input id="signupAvatar" type="file" accept="image/png,image/jpeg,image/webp"></div><button class="btn primary" onclick="createAccount()">Create account</button></div><p class="hint">Demo account mode: your profile is stored locally on this device. A verified badge appears when the demo subscription is active.</p></div></div><div id="app"><header class="topbar" id="topbar"><div class="logo">STREAMFLIX</div><nav class="nav"><button class="active" onclick="renderHome()">Home</button><button onclick="filterGenre('Movies')">Movies</button><button onclick="filterGenre('Action & Adventure')">Action</button><button onclick="filterGenre('Comedy & Drama')">Drama & Comedy</button><button onclick="showMyList()">My List</button></nav><div class="actions"><div class="search">⌕ <input placeholder="Search titles..." oninput="searchMovies(this.value)"></div><button class="menu-trigger" id="accountMenuBtn" onclick="openAccountMenu()" title="Menu">☰</button><button class="avatar" id="headerAvatar" onclick="location.href='profile.html'" aria-label="Profile"></button><div id="accountMenu" class="account-menu hidden"></div></div></header>
+<div id="login" class="login hidden">
+<div id="loginBackdrop" class="login-backdrop" aria-hidden="true"></div>
+<div class="login-vignette" aria-hidden="true"></div>
+<div class="loginbox"><div class="logo">STREAMFLIX</div><div class="auth-tabs"><button id="loginTab" class="active" onclick="showAuth('login')">Sign in</button><button id="signupTab" onclick="showAuth('signup')">Create account</button></div><div id="loginForm"><h1>Sign in</h1><div class="field"><label>Email</label><input id="email" type="email" placeholder="you@example.com"></div><div class="field"><label>Password</label><input id="password" type="password" placeholder="••••••••"></div><button class="btn primary" onclick="login()">Sign in</button></div><div id="signupForm" class="hidden"><h1>Create account</h1><div class="field"><label>Username</label><input id="signupUsername" placeholder="Choose a username"></div><div class="field"><label>Email</label><input id="signupEmail" type="email" placeholder="you@example.com"></div><div class="field"><label>Password</label><input id="signupPassword" type="password" placeholder="At least 4 characters"></div><div class="field"><label>Profile picture <span class="optional">(optional)</span></label><input id="signupAvatar" type="file" accept="image/png,image/jpeg,image/webp"></div><button class="btn primary" onclick="createAccount()">Create account</button></div><p class="hint">Demo account mode: your profile is stored locally on this device. A verified badge appears when the demo subscription is active.</p></div></div><div id="app"><header class="topbar" id="topbar"><div class="logo">STREAMFLIX</div><nav class="nav"><button class="active" onclick="renderHome()">Home</button><button onclick="filterGenre('Movies')">Movies</button><button onclick="filterGenre('Action & Adventure')">Action</button><button onclick="filterGenre('Comedy & Drama')">Drama & Comedy</button><button onclick="showMyList()">My List</button></nav><div class="actions"><div class="search">⌕ <input placeholder="Search titles..." oninput="searchMovies(this.value)"></div><button class="menu-trigger" id="accountMenuBtn" onclick="openAccountMenu()" title="Menu">☰</button><button class="avatar" id="headerAvatar" onclick="location.href='profile.html'" aria-label="Profile"></button><div id="accountMenu" class="account-menu hidden"></div></div></header>
 <section class="hero"><div class="hero-bg" style="background-image:url('thumbnails/midnight-protocol.svg')"></div><div class="hero-copy"><div class="eyebrow">StreamFlix Original · 2026</div><h1>Midnight<br>Protocol</h1><div class="meta"><b>98% Match</b><span>2026</span><span>16+</span><span>2h 08m</span></div><p>A disgraced cyber-intelligence officer gets one night to stop a city-wide blackout while an unseen enemy rewrites the rules.</p><button class="btn primary" onclick="location.href='movie.html?id=0'">▶ Play</button><button class="btn secondary" onclick="toggleList(0)">＋ My List</button></div></section>
 <main id="content"></main><div id="toast" class="toast"></div></div>
 <script src="data.js"></script><script src="app.js"></script><script src="profile.js"></script><script>
+const loginThumbs = MOVIES.map(m => m.thumb);
+function buildLoginPosterAnimation(){
+  const host=document.getElementById('loginBackdrop');
+  if(!host || host.dataset.ready==='1') return;
+  host.innerHTML='';
+  for(let c=0;c<20;c++){
+    const col=document.createElement('div');
+    col.className='login-poster-column '+(c%2===0?'slide-up':'slide-down');
+    col.style.setProperty('--delay', `${-(c%7)*0.9}s`);
+    col.style.setProperty('--duration', `${28+(c%5)*3}s`);
+    for(let pass=0;pass<2;pass++){
+      loginThumbs.forEach((src,i)=>{
+        const card=document.createElement('div');
+        card.className='login-poster';
+        card.style.backgroundImage=`url("${src}")`;
+        card.setAttribute('aria-hidden','true');
+        col.appendChild(card);
+      });
+    }
+    host.appendChild(col);
+  }
+  host.dataset.ready='1';
+}
+function showLoginScreen(){
+  buildLoginPosterAnimation();
+  document.getElementById('app').classList.add('hidden');
+  document.getElementById('login').classList.remove('hidden');
+}
 function showAuth(mode){document.getElementById('loginForm').classList.toggle('hidden',mode!=='login');document.getElementById('signupForm').classList.toggle('hidden',mode!=='signup');document.getElementById('loginTab').classList.toggle('active',mode==='login');document.getElementById('signupTab').classList.toggle('active',mode==='signup');}
-function login(){const e=document.getElementById('email').value.trim(),p=document.getElementById('password').value;if(!/^[^@]+@[^@]+\.[^@]+$/.test(e)||p.length<4){toast('Enter a valid email and 4+ character password');return}localStorage.setItem('streamflix_auth','1');localStorage.setItem('streamflix_email',e);if(!localStorage.getItem('streamflix_username'))localStorage.setItem('streamflix_username',e.split('@')[0]);location.href='index.html'}
+function login(){
+  const e=document.getElementById('email').value.trim(),p=document.getElementById('password').value;
+  if(!/^[^@]+@[^@]+\\.[^@]+$/.test(e)||p.length<4){toast('Enter a valid email and 4+ character password');return}
+  localStorage.setItem('streamflix_auth','1');
+  localStorage.setItem('streamflix_email',e);
+  if(!localStorage.getItem('streamflix_username'))localStorage.setItem('streamflix_username',e.split('@')[0]);
+  location.href='index.html';
+}
 function createAccount(){const u=document.getElementById('signupUsername').value.trim(),e=document.getElementById('signupEmail').value.trim(),p=document.getElementById('signupPassword').value,f=document.getElementById('signupAvatar')?.files?.[0];if(u.length<2||!/^[^@]+@[^@]+\.[^@]+$/.test(e)||p.length<4){toast('Enter a username, valid email and 4+ character password');return}if(f&&(!f.type.startsWith('image/')||f.size>4*1024*1024)){toast('Choose a JPG, PNG or WebP image smaller than 4 MB');return}createAccountWithAvatar(u,e,p,f)}
-if(localStorage.getItem('streamflix_auth')!=='1'){document.getElementById('app').classList.add('hidden');document.getElementById('login').classList.remove('hidden');if(new URLSearchParams(location.search).get('loggedout'))showAuth('login')}else{document.getElementById('app').classList.remove('hidden');renderHome();renderAccountMenu();renderHeaderAvatar();}
+if(localStorage.getItem('streamflix_auth')!=='1'){
+  showLoginScreen();
+  if(new URLSearchParams(location.search).get('loggedout'))showAuth('login');
+}else{
+  document.getElementById('app').classList.remove('hidden');
+  document.getElementById('login').classList.add('hidden');
+  renderHome();renderAccountMenu();renderHeaderAvatar();
+}
 </script></body></html>
