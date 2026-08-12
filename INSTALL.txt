@@ -1,0 +1,16 @@
+QUICK INSTALL
+
+1. Put this folder inside your StreamFlix site folder.
+2. In Termux:
+   cd ~/storage/downloads/streamflix
+   chmod +x download-posters.sh
+   ./download-posters.sh
+3. Paste your TMDB API Read Access Token when prompted.
+4. After it finishes:
+   python integrate-posters.py
+5. Start StreamFlix:
+   python -m http.server 8080
+6. Open:
+   http://localhost:8080
+
+Do NOT put your TMDB token into index.html, data.js, GitHub, or any public website file.
